@@ -12,12 +12,13 @@ public class Application {
         RockPaperScissors game = new RockPaperScissors();
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("============================");
+        System.out.println("===============================");
+        System.out.println("=======Welcome to SkyNet=======");
         System.out.println("Choose rock, paper or scissors");
         String playerChoice = scan.next();
 //        game.playCPUAlwaysWins(playerChoice);
         game.playFairGame(playerChoice);
-        System.out.println("============================");
+        System.out.println("===============================");
 
     }
 
